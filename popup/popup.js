@@ -1,10 +1,17 @@
+import initPopupFAQ from '/popup/popup-faq.js';
+
 let active = false;
 
 window.onload = function() {
+  initPopup();
+  initPopupFAQ();
+};
+
+const initPopup = () => {
   const switchDiv = document.querySelector('.switch');
   switchDiv.addEventListener('click', handleSwitchClick);
   initialize();
-}
+};
 
 const handleSwitchClick = () => {
   active = !active;
@@ -15,9 +22,8 @@ const handleSwitchClick = () => {
 const updatebuttonStyle = (active) => {
   const switchDiv = document.querySelector('.switch');
   const switchButton = switchDiv.querySelector('.switch-button');
-  switchButton.style.transform = `translate3d(${active ? 15 : -3}px, 0, 0)`;
-  switchButton.style.backgroundColor = active ? 'rgb(138, 180, 248)' : 'rgb(218, 220, 224)';
-  switchDiv.style.backgroundColor = active ? 'rgba(138, 180, 248, 0.5)' : 'rgb(154, 160, 166)';
+  switchButton.style.transform = `translate3d(${active ? 16 : 0}px, 0, 0)`;
+  switchDiv.style.backgroundColor = active ? '#65CD9B' : '#BDBDBD';
 };
 
 const initialize = async () => {

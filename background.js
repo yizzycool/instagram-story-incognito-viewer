@@ -1,10 +1,12 @@
 const rules = [{
-  "id" : 1,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "*://*.instagram.com/api/v1/stories/reel/seen*",
-  }
+  id: 1,
+  priority: 1,
+  action: {
+    type: 'block',
+  },
+  condition: {
+    urlFilter: '*://*.instagram.com/api/v1/stories/reel/seen*',
+  },
 }];
 
 chrome.runtime.onInstalled.addListener(async () => {
