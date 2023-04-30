@@ -6,5 +6,17 @@
   "appDesc": {
     "message": "To view instagram story as anonymity.",
     "description": "description"
+  },
+  "functionTitle_1": {
+    "message": "Start as anonymity"
+  },
+  "faqTitle": {
+    "message": "FAQ"
+  },
+  "question_1": {
+    "message": "Why the gradient circle of story be grayed out after clicking?"
+  },
+  "answer_1": {
+    "message": "Don't worry! Just refresh page and that circle will come back to be gradient color again!"
   }
 }

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url(/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Braah One';
+  src: url(/fonts/Braah_One/BraahOne-Regular.ttf) format('truetype');
+}

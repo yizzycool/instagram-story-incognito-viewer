@@ -1,10 +1,22 @@
 {
   "appName": {
-    "message": "無痕觀看 Instagram 限時動態",
+    "message": "IG story 無痕大師",
     "description": "name"
   },
   "appDesc": {
     "message": "一鍵使用無痕模式盡情觀看 Instagram 限時動態吧！",
     "description": "description"
+  },
+  "functionTitle_1": {
+    "message": "啟動無痕模式"
+  },
+  "faqTitle": {
+    "message": "常見問題"
+  },
+  "question_1": {
+    "message": "為什麼看完限時動態，漸層圈圈還是會變灰色？"
+  },
+  "answer_1": {
+    "message": "別擔心！重新整理頁面後，漸層圈圈就會再出現囉～"
   }
 }

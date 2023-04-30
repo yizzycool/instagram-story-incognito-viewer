@@ -1,8 +1,10 @@
 import initPopupFAQ from '/popup/popup-faq.js';
+import initI18n from '/popup/i18n.js';
 
 let active = false;
 
 window.onload = function() {
+  initI18n();
   initPopup();
   initPopupFAQ();
 };
