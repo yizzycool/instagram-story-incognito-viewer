@@ -1,5 +1,6 @@
 # Instagram Story Incognito Viewer
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iijkkpnnjagdgmnffoifplipmepgnfng?color=%237491a8&logo=googlechrome&logoColor=%23eee)
 ![version:v1.0.3](https://img.shields.io/badge/version-v1.0.3-blue)
 
 ## Description
